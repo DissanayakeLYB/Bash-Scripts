@@ -1,0 +1,12 @@
+# Practice Question
+
+- Create prepare_sim.sh.
+
+Your script should:
+	- Try to create a directory called simulation_results.
+	- If successful, print Ready for simulation.
+	- If it fails, print Could not prepare directory.
+
+- Constraint: Use mkdir, &&, and ||. Don't use if or else.
+
+- Bonus: Make the script create a directory whose name is supplied through $1.
