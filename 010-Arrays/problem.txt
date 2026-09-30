@@ -1,0 +1,17 @@
+Exercise: Simulation Models
+
+Create models.sh.
+
+Make an array containing 4 COMSOL model filenames, for example:
+	core.mph
+	magnet.mph
+	piezo.mph
+	test.mph
+
+Then use a for loop to print:
+	Preparing: core.mph
+	Preparing: magnet.mph
+	Preparing: piezo.mph
+	Preparing: test.mph
+
+Bonus: Print how many models are in the array.
