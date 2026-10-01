@@ -1,0 +1,30 @@
+Exercise: COMSOL Runner Setup
+
+Create "simulation_launcher.sh"
+
+Requirements:
+	Accept a model name as an argument.
+	If no model is provided, use "test_model.mph"
+
+Print "Preparing COMSOL simulation: <model_name>"
+
+Example: 
+	./simulation_launcher.sh core.mph
+	Output: Preparing COMSOL simulation: core.mph
+
+Example:
+	./simulation_launcher.sh
+	Output: Preparing COMSOL simulation: test_model.mph
+
+Bonus: 
+	Add a second argument for the number of CPU cores: ./simulation_launcher.sh core.mph 8
+
+	Output:
+	Preparing COMSOL simulation: core.mph
+	Using 8 CPU cores
+
+
+Hints:
+$1 → first argument
+$2 → second argument
+${variable:-default} → default value
