@@ -1,0 +1,10 @@
+Write a Bash script called check_model.sh that:
+	1. Accepts a filename as the first argument.
+	2. Checks whether that file exists.
+	3. Prints Model found! if it exists.
+	4. Otherwise, prints Model not found!.
+
+Example usage: ./check_model.sh test_model.mph
+
+Expected output if the file doesn't exist: Model not found!
+
