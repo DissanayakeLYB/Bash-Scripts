@@ -1,0 +1,12 @@
+Create check_log.sh.
+
+It should accept a log file: ./check_log.sh simulation.log
+
+Your script should:
+	1. Search the file for ERROR.
+	2. If an ERROR is found, print: Simulation has errors
+	3. If no ERROR is found, print: Simulation looks good
+
+Hint: You only need grep, &&, and ||.
+
+Bonus: Make grep case-insensitive so it catches ERROR, Error, and error.
