@@ -1,0 +1,22 @@
+Write a script that checks a file named simulation.log.
+
+Requirements:
+	If the file does not exist, print Log file not found.
+	If the file exists but is empty, print Log file is empty.
+	If the file contains data, print Log file contains data.
+
+Example outputs
+
+simulation.log does not exist
+Log file not found
+
+simulation.log is empty
+Log file is empty
+
+simulation.log contains text
+Log file contains data
+
+Rules
+Use if, elif, and else.
+Use -e and -s.
+No loops or functions.
