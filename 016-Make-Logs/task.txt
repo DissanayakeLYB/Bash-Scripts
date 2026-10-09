@@ -1,0 +1,16 @@
+Create: make_log.sh
+
+When you run: ./make_log.sh
+
+it should create simulation.log containing:
+	Simulation started
+	Mesh completed
+	Solver started
+	Simulation finished
+
+Use only:
+	echo
+	>
+	>>
+
+No loops, no if, no variables.
