@@ -1,0 +1,15 @@
+Write a script that accepts a filename as its first argument.
+
+Example: 
+./count_log.sh simulation.log
+
+Expected output:
+File: simulation.log
+Lines: 12
+
+Rules
+- Use $1 to receive the filename.
+- Use wc -l to count lines.
+- Use a variable to store the count.
+- Print the filename and line count.
+- No if statements, loops, or functions.

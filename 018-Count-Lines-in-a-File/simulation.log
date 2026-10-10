@@ -1,0 +1,12 @@
+Starting COMSOL simulation
+Model: magnetostrictive_core.mph
+Mesh generation started
+Mesh generation completed
+Solver started
+Time step: 0.001 s
+WARNING: Large displacement detected
+Time step: 0.002 s
+Time step: 0.003 s
+ERROR: Failed to converge
+Solver stopped
+Simulation failed
