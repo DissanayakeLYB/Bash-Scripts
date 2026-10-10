@@ -1,4 +1,6 @@
 #!/bin/bash
 
-echo "File: $1"
-echo "Lines: $(wc -l < $1)"
+file=$1
+
+echo "File: $file"
+echo "Lines: $(wc -l < "$file")"
