@@ -1,0 +1,20 @@
+Write a script that attempts to create a directory called simulation_results.
+
+Requirements:
+	1. Run mkdir simulation_results.
+	2. Store its exit status in a variable.
+	3. Print the status.
+	4. If you run the script again, it should show the failure status because the directory already exists.
+
+Example output on the first run:
+Exit status: 0
+
+Example output on the second run:
+Exit status: 1
+
+Rules
+- Use mkdir.
+- Use $?.
+- Use a variable.
+- Use echo.
+- No if, loops, or functions.
