@@ -1,0 +1,18 @@
+Write a script that counts all .mph files in the current directory.
+
+If the directory contains:
+model1.mph
+model2.mph
+model3.mph
+results.txt
+simulation.log
+
+Expected output:
+COMSOL models found: 3
+
+Rules
+- Use a for loop.
+- Use the *.mph pattern.
+- Use a counter variable.
+- Print the final count.
+- No find, ls, or other external commands.
