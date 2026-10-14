@@ -1,0 +1,12 @@
+Check these three files:
+model1.mph
+model2.mph
+model3.mph
+
+Write a script that:
+1. Loops through all three filenames.
+2. Skips any file that does not exist.
+3. Prints Found: filename for each existing file.
+4. Prints the total number of files found at the end.
+
+Rules: Use a for loop, if, continue, and a counter. No find or ls
